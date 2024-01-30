@@ -4,39 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
+    <!-- this how we link css to html file we use a link element -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>forms</h1>
   
   <form action="/submit" method="post">
     <!-- Text Input -->
-    <div>
+    <div class="a">
 <label for="username">Username :</label>
 <input type="text" id="Username" name="Username">
 </div>
 <!-- PASSWORD INPUT -->
-<div>
+<div class="a">
   <label for="password" >Remember password</label>
   <input type="text" id="password" name="password">
 
 </div>
 <!-- EMAIL INPUT -->
-<div>
+<div class="a">
 <label for="email">EMAIL:</label>
 <input type="email" id="lName" name="email">
 </div>
 <!-- address -->
-<div>
+<div class="a">
 <label for="address">ADDRESS:</label>
 <input type="text" id="address" name="address">
 </div>
 <!-- contact -->
-<div>
+<div class="a">
 <label for="mobile">MOBILE :</label>
 <input type="number" id="mobile" name="MOBILE">
 </div>
 <!-- radio buttin -->
-<div>
+<div class="a">
 <label for="gender">GENDER</label>
 <label for="male">MALE</label>
 <input type="radio" id="male" name="male">
@@ -45,12 +47,12 @@
 <br>
 </div>
 <!-- check box -->
-<div>
+<div class="a">
   <label for="subscribe">subscribe to news latter</label>
   <input type="chekbox" id="subscribe" name="subscribe" value="yes">
 </div>
 <!-- drop down (select) -->
-<div>
+<div class="a">
 <label for="country">country:</label>
 <select name="country" id="country" name="country">
   <option value="usa">United States</option>
@@ -59,14 +61,14 @@
 
 </select>
 
-</div>
+</div class="a">
 <!-- textarea -->
-<div>
+<div class="a">
 <label for="message">message</label><br>
 <textarea name="message" id="message" cols="50" rows="4"></textarea><br>
 </div>
 <!-- submit button -->
-<div>
+<div class="a">
   <input type="submit" value="submit">
 </div>
   </form>
