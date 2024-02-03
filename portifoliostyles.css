@@ -19,7 +19,24 @@ body{
     margin: 0px auto;
     display: table;
 }
+.width-33 {
+    width: 33;
+    float: left;
+}
+.width-66{
+    width: 66;
+    float: left ;
+}
+
 /*menu section*/
+
+.main-panel{
+width: 100;
+float: left;
+padding-top: 20px;
+padding-bottom: 50px;
+height: 100vh;
+}
 .logo{
     font-size: 40px;
     font-weight: 600;
@@ -80,8 +97,84 @@ nav a{
 .main-pannel img{
     margin-top: 10%;
     width: 100%;
-    margin-left: 100;
+    margin-left: 10;
 }
+
+/*about me selection*/
+.main-section{
+    width:100%;
+    float: left;
+    padding: 110px 0px 110px 0px;
+
+}
+.width-100{
+    width: 1000%;
+    float: left;
+}
+.mt-20{
+    margin-top: 20px;
+
+}
+.heading-text{
+    width: 100%;
+    float: left;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ffbf35;
+}
+.about-img{
+    width: 100%;
+    padding:0px 50px;
+    margin-top: 20px;
+}
+.adout-me{
+    width: 100;
+    float: left;
+    padding: 20px;
+}
+.adout-me p{
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 27px;;
+    
+}
+table{
+    width: 100%;
+}
+table th,
+table td {
+    font-size: 16;
+    text-align: left;
+    padding: 5px 0px;
+}
+
+/*skill selection*/
+.skill{
+margin-top: 30px;
+font-size: 17px;
+}
+.skill span{
+    float: right;
+}
+.skill div span{
+    background: #ffbf35;
+    height: 5px;
+    float: left;
+}
+div[ role="progressbar"]{
+
+color: #ffbf35;
+margin-left:100px;
+margin-bottom:20px;
+width: 100px;
+height: 100px;
+border-radius: 50%
+place items;
+display: grid;/* experince section*/
+
+}
+
 /*footer-section*/
 .footer{
     background-color: #202020;
