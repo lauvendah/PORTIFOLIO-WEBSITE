@@ -20,18 +20,18 @@ body{
     display: table;
 }
 .width-33 {
-    width: 33;
+    width: 33%;
     float: left;
 }
 .width-66{
-    width: 66;
+    width: 66%;
     float: left ;
 }
 
 /*menu section*/
 
 .main-panel{
-width: 100;
+width: 100%;
 float: left;
 padding-top: 20px;
 padding-bottom: 50px;
@@ -73,7 +73,7 @@ nav a{
     font-weight: bolder;
 }
 .banner-seletion h2{
-    font: size 20px; 
+    font-size:  20px; 
     margin-top: 10px;
     font-weight: 400;
     line-height: 25px;
@@ -108,7 +108,7 @@ nav a{
 
 }
 .width-100{
-    width: 1000%;
+    width: 100%;
     float: left;
 }
 .mt-20{
@@ -136,7 +136,7 @@ nav a{
 .adout-me p{
     font-size: 16px;
     margin-top: 15px;
-    line-height: 27px;;
+    line-height: 27px;
     
 }
 table{
@@ -157,21 +157,34 @@ font-size: 17px;
 .skill span{
     float: right;
 }
+.skill div{
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    background: #e7e7e7;
+    border-radius: 10px;
+}
 .skill div span{
     background: #ffbf35;
     height: 5px;
     float: left;
 }
-div[ role="progressbar"]{
-
+div[ role="progressbar"]
+{
 color: #ffbf35;
 margin-left:100px;
 margin-bottom:20px;
 width: 100px;
+;
 height: 100px;
+;
 border-radius: 50%
 place items;
 display: grid;
+
+--pgPercentage:var(--value);
+background: radial-gradient(closest-side,black 80%,transparent 0 99.9%,black 0),
+conic-gradient (#ffbf35 calc(var(--pgPercentage)*1%),#ffe6af 0);
 }
 /* experince section*/
 .bg-lightgrey {
@@ -208,7 +221,7 @@ display: grid;
     margin-bottom: 2px;
     font-size: 17px;
 }
-.experience-content{
+.experience-content p{
     font-size: 15px;
 }
 /*service section*/
@@ -257,7 +270,7 @@ display: grid;
 .testimonial-content{
     background: #262626;
     color: #cfcfcf;
-    width: 100;
+    width: 100%;
     float: left;
     padding: 0px 20px 20px 20px;
     font-size: 16px;
